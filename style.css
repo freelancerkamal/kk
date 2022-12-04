@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#hero{
+  height: 100vh;
+  background: url(image/chromehill-4724725__340.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(250, 243, 243);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+#hero .content{
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: 300px;
+}
+
+#hero h1{
+font-size: 70px;
+}
+
+#hero button{
+  padding: 10px 40px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background: linear-gradient(to left, rgb(89, 73, 71),rgb(22, 21, 21));
+  color: rgb(246, 237, 237);
+  border: 1px solid rgb(21, 19, 19);
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+#hero button:hover{
+  background: linear-gradient(to left,red,tomato);
+}
